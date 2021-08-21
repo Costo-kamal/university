@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <!-- header -->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="about.html">ABOUT</a></li>
+                    <li>
+                        <a href="course.html">COURSE</a></li>
+                    <li>
+                        <a href="blog.html">BLOG</a></li>
+                    <li>
+                        <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- nav-links -->
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box ">
+            <h1>about us</h1>
+
+        </div>
+        <!-- /text-box -->
+    </section>
+    <!-- /sub-header -->
+    <!-- about us contant -->
+
+    <div class="row">
+        <div class="about-col">
+            <h1>we are the world's largest inversity</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa autem dicta omnis commodi temporibus quas repudiandae aperiam non sapiente! Placeat at aut unde earum sapiente sint iste totam molestiae et! <br> Lorem ipsum dolor sit, amet consectetur
+                adipisicing elit. Culpa autem dicta omnis commodi temporibus quas repudiandae aperiam non sapiente! Placeat at aut unde earum sapiente sint iste totam molestiae et! <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa autem
+                dicta omnis commodi temporibus quas repudiandae aperiam non sapiente! Placeat at aut unde earum sapiente sint iste totam molestiae et! <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa autem dicta omnis commodi temporibus
+                quas repudiandae aperiam non sapiente! Placeat at aut unde earum sapiente sint iste totam molestiae et! <br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa autem dicta omnis commodi temporibus quas repudiandae aperiam
+                non sapiente! Placeat at aut unde earum sapiente sint iste totam molestiae et! <br></p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="./images/pexels-mikhail-nilov-7988751.jpg" alt="">
+        </div>
+    </div>
+    <!-- /about us contant -->
+
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, eligendi! Aut, dolorem sunt voluptatem deserunt <br> aliquam nisi voluptatibus, veritatis maiores nihil sit nesciunt repellendus ducimus debitis in labore vero. Beatae?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by Easy Tutorials</p>
+    </section>
+    <!-- /Footer -->
+
+
+
+
+    <!-- -----------------------------------javascript for Toggle manu ------------------------- -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
